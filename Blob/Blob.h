@@ -50,4 +50,11 @@ void Blob<T>::check(size_type idx, const std::string &msg) const {
 		throw std::out_of_range(msg);
 }
 
+template<int a, int b>
+bool compare()
+{
+	return a < b;
+}
+
+
 #endif
